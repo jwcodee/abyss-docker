@@ -6,6 +6,6 @@ name=jowong4/abyss-docker \
 org.label-schema.description="AbySS Docker"
 
 RUN apt-get update -qq \
-&&  sudo apt-get install -qq software-properties-common \
-&&  sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test \
-&&  sudo apt-get install -qq autoconf automake gcc g++ libboost-dev libgtest-dev libopenmpi-dev libsparsehash-dev make pandoc
+&& apt-get install -qq software-properties-common \
+&& add-apt-repository -y ppa:ubuntu-toolchain-r/test \
+&& apt-get install -qq autoconf automake gcc g++ libboost-dev libgtest-dev libopenmpi-dev libsparsehash-dev make pandoc
