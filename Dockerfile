@@ -5,4 +5,4 @@ LABEL maintainer="Johnathan Wong <johnathanwong4@gmail.com>" \
 name=jowong4/abyss-docker \
 org.label-schema.description="AbySS Docker"
 
-RUN sudo apt-get update -qq
+RUN apt-get update -qq
